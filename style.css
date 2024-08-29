@@ -11,6 +11,16 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+.header,
+.section-1,
+.section-2,
+.section-3,
+.container-3,
+.section-4,
+footer {
+    padding: 24px calc(10vw + 16px); /* Adjust the padding using viewport width */
+}
+
 /* HEADER component */
 .header {
     display: flex;
@@ -18,7 +28,6 @@ body {
     justify-content: space-between;
     color: #F9FAF8;
     align-items: center;
-    padding: 24px 240px;
     width: 100%;
 }
 
@@ -49,7 +58,6 @@ ul li a {
     background-color: #1F2937;
     display: flex;
     margin: 0;
-    padding: 24px 240px;
     flex-direction: row;
 }
 
@@ -94,7 +102,6 @@ ul li a {
     background-color: #F9FAF8;
     justify-content: space-evenly;
     align-items: center;
-    padding: 48px;
     flex-direction: column;
 }
 
@@ -128,7 +135,6 @@ ul li a {
 /* SECTION 3 */
 .section-3 {
     background-color: #E5E7EB;
-    padding: 24px 240px;
 }
 
 .quote {
@@ -156,7 +162,6 @@ ul li a {
     background-color: #F9FAF8;
     justify-content: center;
     align-items: center;
-    padding: 48px;
     flex-direction: row;
 }
 
@@ -167,7 +172,6 @@ ul li a {
     justify-content: space-evenly;
     align-items: center;
     gap: 24px;
-    padding: 24px 240px;
 }
 
 .h4 {
@@ -198,7 +202,6 @@ footer {
     display: flex;
     background-color:#1F2937;
     color:#F9FAF8;
-    padding: 24px 240px;
     justify-content: center;
     align-items: center;
 }
