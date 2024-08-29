@@ -66,7 +66,7 @@ ul li a {
     padding-bottom: 12px;
 }
 
-.subtext {
+.subtext-1 {
     font-size: 18px;
     color: #E5E7EB;
     padding-bottom: 12px;
@@ -83,7 +83,7 @@ button {
     margin-top: 12px;
 }
 
-.img {
+.img-1 {
     width: auto;
     height: auto;
 }
@@ -105,7 +105,7 @@ button {
     padding-bottom: 12px;
 }
 
-.container {
+.container-1 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -120,7 +120,32 @@ button {
     gap: 12px;
 }
 
-.subtext2 {
+.subtext-2 {
     color: #1F2937;
     text-align: center;
+}
+
+/* SECTION 3 */
+.section-3 {
+    background-color: #E5E7EB;
+    padding: 24px 240px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 96px;
+    justify-content: center;
+}
+
+.author {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px 10px 0 0;
 }
